@@ -75,3 +75,9 @@ Location marker
 Latitude & Longitude display
 
 Runtime location permission handling
+
+
+Attached Screensorts
+
+![Screen 1](https://github.com/satyajitsingh001/Googlemap_Getmyloaction_ReactnativeApp/blob/d43ec14bffd5235613f9e80a99bfcbe03a12a88e/map_screen.jpeg)
+![Screen 2](https://github.com/satyajitsingh001/Googlemap_Getmyloaction_ReactnativeApp/blob/d43ec14bffd5235613f9e80a99bfcbe03a12a88e/splash.jpeg)
