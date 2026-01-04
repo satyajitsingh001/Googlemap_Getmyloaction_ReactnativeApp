@@ -17,7 +17,7 @@ project-root/
 
 
 Main screen code location:
-src/map/Map.js
+src/map/Map.jsx
 
 Installation
 1. Install dependencies
@@ -37,7 +37,6 @@ android/app/src/main/AndroidManifest.xml
 
 Add the following before the <application> tag:
 
-<uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
@@ -56,7 +55,7 @@ Replace Google_Service_Apikey with your actual Google Maps API key.
 Build & Run
 1. Clean Android build
 cd android
-gradlew clean
+./gradlew clean
 cd ..
 
 2. Run the application
@@ -64,7 +63,7 @@ npm run android
 
 
 
-Features
+**Features**
 
 Google Maps integration
 
@@ -77,7 +76,7 @@ Latitude & Longitude display
 Runtime location permission handling
 
 
-Attached Screensorts
+**Attached Screensorts**
 
 ![Screen 1](https://github.com/satyajitsingh001/Googlemap_Getmyloaction_ReactnativeApp/blob/d43ec14bffd5235613f9e80a99bfcbe03a12a88e/map_screen.jpeg)
 ![Screen 2](https://github.com/satyajitsingh001/Googlemap_Getmyloaction_ReactnativeApp/blob/d43ec14bffd5235613f9e80a99bfcbe03a12a88e/splash.jpeg)
